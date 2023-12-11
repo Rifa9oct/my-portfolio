@@ -10,6 +10,10 @@ body{
     background-color: #31065A;
 }
 
+.container {
+    background-color: pink;
+  }
+
 /* .blueBg{
     background-image: url("../src/assets/blueBg.png");
     background-position: center;
