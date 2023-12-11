@@ -4,13 +4,13 @@ const AboutMe = () => {
 
     return (
         <div className="pb-20" id="aboutme">
-            < h1 className="text-5xl font-extrabold text-white text-center" > ABOUT <span span className="text-orange-500" > ME</span ></h1 >
+            < h1 className="text-5xl font-extrabold text-white text-center" >ABOUT<span span className="text-orange-500" > ME</span ></h1 >
 
-            <div className="flex items-center justify-center gap-20 mt-12 text-white text-sm">
-                <div className="w-1/4">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-20 mt-12 text-white text-sm">
+                <div className="w-2/4 lg:w-1/4 p-5">
                     <img className="rounded-[36px]" src={aboutme} alt="about me" />
                 </div>
-                <div className="w-[45%]">
+                <div className="w-[45%] text-center lg:text-start">
                     <p className="mb-3">👋 Hello there! I'am a passionate and detail-oriented web developer.</p>
                     <p className="mb-3">💻 I specialize in building robust and scalable web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack. I thrive on turning innovative ideas into practical solutions, leveraging my skills in React.js to craft engaging front-end interfaces that captivate users.</p>
                     <p className="mb-3">🌐 My expertise extends beyond the client-side, as I'm well-versed in server-side development using Node.js and Express.js. I have hands-on experience in database management, particularly with MongoDB, ensuring data integrity and efficient storage.</p>
