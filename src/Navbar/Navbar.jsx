@@ -6,11 +6,11 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><Link className="hover:text-orange-500" smooth={true} to="home">Home</Link></li>
-        <li><Link className="hover:text-orange-500" offset={-50} smooth={true} to="aboutme">About Me</Link></li>
-        <li><Link className="hover:text-orange-500" offset={-50} smooth={true} to="services">Services</Link></li>
-        <li><Link className="hover:text-orange-500" offset={-50} smooth={true} to="skills">Skills</Link></li>
-        <li><Link className="hover:text-orange-500" offset={-50} smooth={true} to="portfolio">Portfolio</Link></li>
-        <li><Link className="hover:text-orange-500" offset={-50} smooth={true} to="contact">Contact</Link></li>
+        <li><Link className="hover:text-orange-500" offset={-100} smooth={true} to="aboutme">About Me</Link></li>
+        <li><Link className="hover:text-orange-500" offset={-100} smooth={true} to="services">Services</Link></li>
+        <li><Link className="hover:text-orange-500" offset={-100} smooth={true} to="skills">Skills</Link></li>
+        <li><Link className="hover:text-orange-500" offset={-100} smooth={true} to="portfolio">Portfolio</Link></li>
+        <li><Link className="hover:text-orange-500" offset={-100} smooth={true} to="contact">Contact</Link></li>
     </>
 
     return (
