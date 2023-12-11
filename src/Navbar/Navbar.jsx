@@ -5,7 +5,7 @@ import logo from "../assets/logo.png"
 const Navbar = () => {
 
     const navLinks = <>
-        <li><Link className="hover:text-orange-500" offset={-50} smooth={true} to="home">Home</Link></li>
+        <li><Link className="hover:text-orange-500" smooth={true} to="home">Home</Link></li>
         <li><Link className="hover:text-orange-500" offset={-50} smooth={true} to="aboutme">About Me</Link></li>
         <li><Link className="hover:text-orange-500" offset={-50} smooth={true} to="services">Services</Link></li>
         <li><Link className="hover:text-orange-500" offset={-50} smooth={true} to="skills">Skills</Link></li>
