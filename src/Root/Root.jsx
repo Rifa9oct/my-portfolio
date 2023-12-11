@@ -4,6 +4,7 @@ import Home from "../components/Home/Home";
 import AboutMe from "../components/AboutMe/AboutMe";
 import Contact from "../components/Contact/Contact";
 import Skills from "../components/Skills/Skills";
+import Portfolio from "../components/Portfolio/Portfolio";
 
 const Root = () => {
     return (
@@ -12,6 +13,7 @@ const Root = () => {
             <Home></Home>
             <AboutMe></AboutMe>
             <Skills></Skills>
+            <Portfolio></Portfolio>
             <Contact></Contact>
         </div>
     );
