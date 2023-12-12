@@ -12,7 +12,7 @@ const Home = () => {
         height: '700px'
     };
     return (
-        <div className="bgImg relative " style={bgImg} id="home">
+        <div className="bgImg max-w-[1468px] mx-auto relative " style={bgImg} id="home">
             <div className="absolute text-center lg:text-start top-[200px] left-[10px] md:left-[150px]">
                 <h2 className="text-orange-500 font-medium text-xl">Hi, It's me</h2>
                 <h1 className="text-3xl md:text-5xl font-extrabold text-white">MOST. KOHINUR AKTHER</h1>

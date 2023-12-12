@@ -4,7 +4,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const Portfolio = () => {
     return (
-        <div className="pb-20  mb-20" id='portfolio'>
+        <div className="pb-20 max-w-[1468px] mx-auto  mb-20" id='portfolio'>
             < h1 className="text-5xl font-extrabold text-white text-center" > My <span span className="text-orange-500" > Portfolio</span ></h1 >
 
             <div className="flex flex-col lg:flex-row gap-6 justify-evenly items-center mt-12">

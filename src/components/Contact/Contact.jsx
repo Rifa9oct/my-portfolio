@@ -30,7 +30,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='pb-20' id="contact">
+        <div className='pb-20 max-w-[1468px] mx-auto' id="contact">
             <h1 className="text-5xl font-extrabold text-white text-center">Contact <span className="text-orange-500">ME</span></h1>
 
             <div className='flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-20 mt-12'>

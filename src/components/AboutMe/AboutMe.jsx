@@ -3,7 +3,7 @@ import aboutme from "../../assets/aboutme.png"
 const AboutMe = () => {
 
     return (
-        <div className="pb-20" id="aboutme">
+        <div className="max-w-[1468px] mx-auto pb-20" id="aboutme">
             < h1 className="text-5xl font-extrabold text-white text-center" >ABOUT<span span className="text-orange-500" > ME</span ></h1 >
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-20 mt-12 text-white text-sm">
