@@ -1,6 +1,7 @@
 import banner from "../../assets/banner.png"
-import { FaDownload } from "react-icons/fa6";
-import resume from "../../assets/Kohinur Akther Resume.pdf"
+import { FaDownload, FaLinkedin } from "react-icons/fa6";
+import resume from "../../assets/Kohinur Akther Resume.pdf";
+import { FaGithub } from "react-icons/fa6";
 
 const Home = () => {
     const bgImg = {
@@ -18,6 +19,10 @@ const Home = () => {
                 <h2 className="text-2xl font-medium my-1 text-white">And I'm a<span className="text-orange-500"> Web Developer</span></h2>
                 <p className="text-white text-sm w-[400px]">with a strong foundation in modern technologies. My journey in the world of web development began with a love for creating seamless and interactive user experiences.</p>
 
+                <div className="flex items-center gap-8 mt-4 ml-[150px] md:ml-[215px] lg:ml-10 text-white text-4xl">
+                    <p><a target="blank" href="https://github.com/Rifa9oct"><FaGithub/></a></p>
+                    <p><a href="https://www.linkedin.com/in/most-kohinur-akther-3a46752a3/"><FaLinkedin /></a></p>
+                </div>
                 <a href={resume} download={resume}>
                     <button className="text-white font-bold bg-orange-500 shadow-xl hover:border-b-4 hover:scale-105 transition-all px-4 py-3 mt-5 rounded-full"><FaDownload className="inline text-xl pb-1 text-center" /> Download Resume</button>
                 </a>
