@@ -1,0 +1,43 @@
+.scrollBg-1{
+    background: url(../../assets/project1.jpeg);
+    background-position: top;
+    background-size: cover;
+    transition: all 2s ease;
+}
+.scrollBg-2{
+    background: url(../../assets/project2.jpeg);
+    background-position: top;
+    background-size: cover;
+    transition: all 2s ease;
+}
+.scrollBg-3{
+    background: url(../../assets/project3.jpeg);
+    background-position: top;
+    background-size: cover;
+    transition: all 2s ease;
+}
+
+.scrollBg-1:hover{
+    background-position: bottom;
+}
+.scrollBg-2:hover{
+    background-position: bottom;
+}
+.scrollBg-3:hover{
+    background-position: bottom;
+}
+
+@keyframes moveUpDown{
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+.animateUpDown{
+    animation: moveUpDown 2s infinite;
+}

@@ -5,6 +5,7 @@ import AboutMe from "../components/AboutMe/AboutMe";
 import Contact from "../components/Contact/Contact";
 import Skills from "../components/Skills/Skills";
 import Portfolio from "../components/Portfolio/Portfolio";
+import Footer from "../components/Footer/Footer";
 
 const Root = () => {
     return (
@@ -15,6 +16,7 @@ const Root = () => {
             <Skills></Skills>
             <Portfolio></Portfolio>
             <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };

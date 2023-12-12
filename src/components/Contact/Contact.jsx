@@ -35,15 +35,15 @@ const Contact = () => {
 
             <div className='flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-20 mt-12'>
                 <div className='text-white text-xl'>
-                    <div className='flex justify-center items-center'>
+                    <div className='flex items-center'>
                         <MdLocationOn className='inline mr-2 text-2xl' />
                         <p>Dhaka, Bangladesh</p>
                     </div>
-                    <div className='flex justify-center items-center'>
+                    <div className='flex items-center'>
                         <MdEmail className='inline mr-2' />
                         <p className='mb-2'>kohinuraktherr@gmail.com</p>
                     </div>
-                    <div className='flex justify-center items-center'>
+                    <div className='flex items-center'>
                         <FaLinkedin className='inline mr-2' />
                         <a href="https://www.linkedin.com/in/most-kohinur-akther-3a46752a3/">Linked in</a>
                     </div>

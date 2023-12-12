@@ -14,7 +14,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar flex-col md:flex-row items-center justify-between pb-5 md:pb-0 bg-[#170550] md:px-[150px]">
+        <div className="navbar flex-col md:flex-row items-center justify-between bg-[#170550] md:px-[150px]">
             <div>
                 <img className="w-[120px] py-1" src={logo} />
                 <div className="dropdown dropdown-end ml-[80px] md:ml-[300px]">
