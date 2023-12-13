@@ -4,8 +4,9 @@ import Home from "../components/Home/Home";
 import AboutMe from "../components/AboutMe/AboutMe";
 import Contact from "../components/Contact/Contact";
 import Skills from "../components/Skills/Skills";
-import Portfolio from "../components/Portfolio/Portfolio";
+import Project from "../components/Project/Project";
 import Footer from "../components/Footer/Footer";
+import Education from "../components/Education/Education";
 
 const Root = () => {
     return (
@@ -13,8 +14,9 @@ const Root = () => {
             <Headroom><Navbar></Navbar></Headroom>
             <Home></Home>
             <AboutMe></AboutMe>
+            <Education></Education>
             <Skills></Skills>
-            <Portfolio></Portfolio>
+            <Project></Project>
             <Contact></Contact>
             <Footer></Footer>
         </div>

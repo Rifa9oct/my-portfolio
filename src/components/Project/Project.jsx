@@ -1,11 +1,11 @@
-import "./portfolio.css"
+import "./project.css"
 import { CgMouse } from "react-icons/cg";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
-const Portfolio = () => {
+const Project = () => {
     return (
-        <div className="pb-20 max-w-[1468px] mx-auto  mb-20" id='portfolio'>
-            < h1 className="text-5xl font-extrabold text-white text-center" > My <span span className="text-orange-500" > Portfolio</span ></h1 >
+        <div className="pb-20 max-w-[1468px] mx-auto  mb-20" id='project'>
+            < h1 className="text-5xl font-extrabold text-white text-center">Latest <span span className="text-orange-500" > Projects</span ></h1 >
 
             <div className="flex flex-col lg:flex-row gap-6 justify-evenly items-center mt-12">
                 <div className="lg:hidden md:block text-white w-[300px] text-center">
@@ -70,4 +70,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default Project;
