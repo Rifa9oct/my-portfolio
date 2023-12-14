@@ -12,7 +12,7 @@ const Project = () => {
                     <h1 className="text-2xl text-yellow-300">Employee Management</h1>
                     <p className="text-xs mt-1">Transform workforce management with our Employee Management site, using Firebase, Tailwind, Mongoose, React, JWT, and daisyui. Tailored roles empower HR, Admin, and employees, ensuring an efficient and user-friendly experience.</p>
                 </div>
-                <a href="https://tricky-earthquake.surge.sh" target="blank" className="scrollBg-1 relative overflow-hidden h-[345px] w-[300px] border rounded-md cursor-pointer">
+                <a href="https://employee-management-client.vercel.app" target="blank" className="scrollBg-1 relative overflow-hidden h-[345px] w-[300px] border rounded-md cursor-pointer">
                     <div className="absolute h-[345px] w-[300px] bg-black bg-opacity-50 hover:opacity-0">
                         <div className="animateUpDown text-2xl mt-[140px] ml-[135px] text-white">
                             <IoIosArrowUp />

@@ -4,30 +4,25 @@
 }
 
 .navbar .li1{
-    margin-right: 24px;
     opacity: 0;
     animation: slideTop 0s ease forwards;
 }
 .navbar .li2{
-    margin-right: 24px;
     transition: .2s;
     opacity: 0;
     animation: slideTop .5s ease forwards;
 }
 .navbar .li3{
-    margin-right: 24px;
     transition: .2s;
     opacity: 0;
     animation: slideTop .6s ease forwards;
 }
 .navbar .li4{
-    margin-right: 24px;
     transition: .2s;
     opacity: 0;
     animation: slideTop .7s ease forwards;
 }
 .navbar .li5{
-    margin-right: 24px;
     transition: .2s;
     opacity: 0;
     animation: slideTop .8s ease forwards;
