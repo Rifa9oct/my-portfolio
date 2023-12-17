@@ -40,7 +40,7 @@
     animation-delay: 1s;
 }
 
-.a1 {
+/* .a1 {
     transition: .5s ease;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
@@ -52,7 +52,7 @@
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1.4s;
-}
+} */
 
 @keyframes slideLeft {
     0% {
@@ -69,7 +69,7 @@
 .button {
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 @keyframes slideTop {
     0%{

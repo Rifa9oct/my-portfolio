@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
 import "./navbar.css"
 
 
@@ -18,7 +18,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between bg-[#170550] lg:px-[150px]">
             <div className="flex items-center p-3 md:p-2">
                 <div className="logo w-[120px]">
-                    <img className=" pt-1" src={logo} />
+                    {/* <img className=" pt-1" src={logo} /> */}
+                    <h1 className="text-4xl text-orange-500 font-bold">Kohinur</h1>
                 </div>
                 <div className="block lg:hidden dropdown dropdown-end ml-[210px] md:ml-[560px]">
                     <label tabIndex={0} className="btn btn-error lg:hidden">
@@ -32,7 +33,7 @@ const Navbar = () => {
 
             <div>
                 <div>
-                    <ul className="hidden lg:block text-yellow-300 cursor-pointer">
+                    <ul className="hidden lg:block text-[#bc87ee] cursor-pointer">
                         {navLinks}
                     </ul>
                 </div>

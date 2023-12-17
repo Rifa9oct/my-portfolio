@@ -7,7 +7,7 @@ const AboutMe = () => {
             < h1 className="text-4xl md:text-5xl font-extrabold text-white text-center" >ABOUT<span span className="text-orange-500" > ME</span ></h1 >
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-20 mt-12 text-white text-sm">
-                <div className="w-[300px] lg:w-1/4 p-5">
+                <div className="w-[300px] lg:w-[390px] p-5">
                     <img className="rounded-[36px]" src={aboutme} alt="about me" />
                 </div>
                 <div className="lg:w-[45%] px-8 lg:px-0">

@@ -37,7 +37,7 @@ const Education = () => {
                         contentStyle={{ background: '#f97316', color: '#fff' }}
                         date="2016 - 2017"
                         iconStyle={{ background: 'rgb(1, 210, 1)', color: '#fff' }}
-                        icon={<img src={ssc} />}
+                        icon={<img className='rounded-[] mt-1 p-[2px] w-[84%] mx-auto' src={ssc} />}
                     >
                         <h3 className="font-bold ">SSC</h3>
                         <h4 className="text-xl font-bold ">Secondary School Certificate</h4>
