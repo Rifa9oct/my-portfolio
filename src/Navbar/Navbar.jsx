@@ -6,12 +6,12 @@ import "./navbar.css"
 const Navbar = () => {
 
     const navLinks = <div className="navbar flex items-center flex-col lg:flex-row gap-2 lg:gap-8">
-        <li className="li1 text-lg"><Link className="hover:text-orange-500" smooth={true} to="home">Home</Link></li>
-        <li className="li2 text-lg"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="aboutme">About Me</Link></li>
-        <li className="li3 text-lg"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="education">Education</Link></li>
-        <li className="li4 text-lg"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="skills">Skills</Link></li>
-        <li className="li5 text-lg"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="project">Project</Link></li>
-        <li className="li6 text-lg"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="contact">Contact</Link></li>
+        <li className="li1"><Link className="hover:text-orange-500" smooth={true} to="home">Home</Link></li>
+        <li className="li2"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="aboutme">About Me</Link></li>
+        <li className="li3"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="education">Education</Link></li>
+        <li className="li4"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="skills">Skills</Link></li>
+        <li className="li5"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="project">Project</Link></li>
+        <li className="li6"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="contact">Contact</Link></li>
     </div>
 
     return (
