@@ -1,51 +1,59 @@
-import ProgressBar from "@ramonak/react-progress-bar";
+import Marquee from "react-fast-marquee";
+import html from "../../assets/skills_logo/html.png";
+import css from "../../assets/skills_logo/css.png";
+import tailwind from "../../assets/skills_logo/tailwind.png";
+import bootstrap from "../../assets/skills_logo/bootstrap.png";
+import javascript from "../../assets/skills_logo/javascript.png";
+import react from "../../assets/skills_logo/react.png";
+import next from "../../assets/skills_logo/next.png";
+import node from "../../assets/skills_logo/node.png";
+import mongo from "../../assets/skills_logo/mongo.png";
 
 const Skills = () => {
 
     return (
         <div className="pb-20 max-w-[1468px] mx-auto my-20" id='skills'>
-            <h1 className="text-5xl font-extrabold text-white text-center">My <span className="text-orange-500">Skills</span></h1>
-            <div className="mt-12 justify-center">
-                <div className="pl-10 md:pl-40 lg:pl-0 flex flex-col lg:flex-row mx-auto justify-center lg:gap-32 text-white">
+            <h1 className="text-5xl font-extrabold text-white text-center mb-12">My <span className="text-orange-500">Skills</span></h1>
+            <Marquee speed={150}>
+                <div className="flex gap-6">
                     <div>
-                        <div className="flex items-center mb-4">
-                            <p className="text-xl w-[120px] font-bold mr-5">HTML</p>
-                            <ProgressBar className="w-[200px] md:w-[300px] lg:w-[400px]" baseBgColor="#43366A" height={12} completed={90} bgColor="#F86F03" />
-                        </div>
-                        <div className="flex items-center mb-4">
-                            <p className="text-xl w-[120px] font-bold mr-5">CSS</p>
-                            <ProgressBar className="w-[200px] md:w-[300px] lg:w-[400px]" baseBgColor="#43366A" height={12} completed={85} bgColor="#F86F03" />
-                        </div>
-                        <div className="flex items-center mb-4">
-                            <p className="text-xl w-[120px] font-bold mr-5">Tailwind CSS</p>
-                            <ProgressBar className="w-[200px] md:w-[300px] lg:w-[400px]" baseBgColor="#43366A" height={12} completed={80} bgColor="#F86F03" />
-                        </div>
-                        <div className="flex items-center mb-4">
-                            <p className="text-xl w-[120px] font-bold mr-5">Javascipt</p>
-                            <ProgressBar className="w-[200px] md:w-[300px] lg:w-[400px]" baseBgColor="#43366A" height={12} completed={70} bgColor="#F86F03" />
-                        </div>
+                        <img src={html} alt="html_logo" className="w-[150px]" />
+                        <p className="text-white font-bold uppercase text-center">html</p>
                     </div>
-
                     <div>
-                        <div className="flex items-center mb-4">
-                            <p className="text-xl w-[120px] font-bold mr-5">React Js</p>
-                            <ProgressBar className="w-[200px] md:w-[300px] lg:w-[400px]" baseBgColor="#43366A" height={12} completed={80} bgColor="#F86F03" />
-                        </div>
-                        <div className="flex items-center mb-4">
-                            <p className="text-xl w-[120px] font-bold mr-5">Mongo DB</p>
-                            <ProgressBar className="w-[200px] md:w-[300px] lg:w-[400px]" baseBgColor="#43366A" height={12} completed={60} bgColor="#F86F03" />
-                        </div>
-                        <div className="flex items-center mb-4">
-                            <p className="text-xl w-[120px] font-bold mr-5">Node Js</p>
-                            <ProgressBar className="w-[200px] md:w-[300px] lg:w-[400px]" baseBgColor="#43366A" height={12} completed={75} bgColor="#F86F03" />
-                        </div>
-                        <div className="flex items-center">
-                            <p className="text-xl w-[120px] font-bold mr-5">Bootstrap</p>
-                            <ProgressBar className="w-[200px] md:w-[300px] lg:w-[400px]" baseBgColor="#43366A" height={12} completed={65} bgColor="#F86F03" />
-                        </div>
+                        <img src={css} alt="css_logo" className="w-[150px]" />
+                        <p className="text-white font-bold uppercase text-center">css</p>
+                    </div>
+                    <div>
+                        <img src={tailwind} alt="tailwind_logo" className="w-[150px]" />
+                        <p className="text-white font-bold uppercase text-center">tailwind css</p>
+                    </div>
+                    <div>
+                        <img src={bootstrap} alt="bootstrap_logo" className="w-[150px]" />
+                        <p className="text-white font-bold uppercase text-center">bootstrap</p>
+                    </div>
+                    <div>
+                        <img src={javascript} alt="javascript_logo" className="w-[150px]" />
+                        <p className="text-white font-bold uppercase text-center">javascript</p>
+                    </div>
+                    <div>
+                        <img src={react} alt="reactjs_logo" className="w-[150px]" />
+                        <p className="text-white font-bold uppercase text-center">react js</p>
+                    </div>
+                    <div>
+                        <img src={next} alt="nextjs_logo" className="w-[150px]" />
+                        <p className="text-white font-bold uppercase text-center">next js</p>
+                    </div>
+                    <div>
+                        <img src={node} alt="nodejs_logo" className="w-[150px]" />
+                        <p className="text-white font-bold uppercase text-center">node js</p>
+                    </div>
+                    <div className="mr-[200px]">
+                        <img src={mongo} alt="mongoDB_logo" className="w-[150px]" />
+                        <p className="text-white font-bold uppercase text-center">mongodb</p>
                     </div>
                 </div>
-            </div>
+            </Marquee>
         </div>
     );
 };
