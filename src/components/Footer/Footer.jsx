@@ -18,12 +18,12 @@ const Footer = () => {
 
                 <div className="text-3xl flex items-center gap-4">
                     <a target="blank" href="https://github.com/Rifa9oct"><FaGithub /></a>
-                    <a href="https://www.linkedin.com/in/most-kohinur-akther/"><FaLinkedin /></a>
-                    <a><FaInstagram /></a>
+                    <a target="blank" href="https://www.linkedin.com/in/most-kohinur-akther/"><FaLinkedin /></a>
+                    <a target="blank" href="https://www.instagram.com/kohinur_akther.dev"><FaInstagram /></a>
                     <a><FaWhatsapp /></a>
                 </div>
             </div>
-            <p className="text-sm text-center">Copyright © 2023 - All right reserved by Most. Kohinur Akther</p>
+            <p className="text-sm text-center">Copyright © 2024 - All right reserved by Most. Kohinur Akther</p>
         </div>
     );
 };

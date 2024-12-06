@@ -6,19 +6,19 @@ import "./navbar.css"
 const Navbar = () => {
 
     const navLinks = <div className="navbar flex items-center flex-col lg:flex-row gap-2 lg:gap-8">
-        <li className="li1"><Link className="hover:text-orange-500" smooth={true} to="home">Home</Link></li>
-        <li className="li2"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="aboutme">About Me</Link></li>
-        <li className="li3"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="education">Education</Link></li>
-        <li className="li4"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="skills">Skills</Link></li>
-        <li className="li5"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="project">Project</Link></li>
-        <li className="li6"><Link className="hover:text-orange-500" offset={-100} smooth={true} to="contact">Contact</Link></li>
+        <li className="li1"><Link className="hover:text-[#f6b016]" smooth={true} to="home">Home</Link></li>
+        <li className="li2"><Link className="hover:text-[#f6b016]" offset={-100} smooth={true} to="aboutme">About Me</Link></li>
+        <li className="li3"><Link className="hover:text-[#f6b016]" offset={-100} smooth={true} to="education">Education</Link></li>
+        <li className="li4"><Link className="hover:text-[#f6b016]" offset={-100} smooth={true} to="skills">Skills</Link></li>
+        <li className="li5"><Link className="hover:text-[#f6b016]" offset={-100} smooth={true} to="project">Project</Link></li>
+        <li className="li6"><Link className="hover:text-[#f6b016]" offset={-100} smooth={true} to="contact">Contact</Link></li>
     </div>
 
     return (
         <div className="bg-[#170550]">
-            <div className="flex items-center max-w-[1468px] mx-auto justify-between">
+            <div className="flex items-center max-w-[1280px] mx-auto justify-between">
                 <div className="flex items-center p-3 md:p-2">
-                    <div className="logo w-[250px]">
+                    <div className="logo w-[220px]">
                         <img className=" pt-1" src={logo} />
                     </div>
                     <div className="block lg:hidden dropdown dropdown-end ml-[210px] md:ml-[560px]">
@@ -33,7 +33,7 @@ const Navbar = () => {
 
                 <div>
                     <div>
-                        <ul className="hidden lg:block text-[#bc87ee] cursor-pointer">
+                        <ul className="hidden lg:block text-white cursor-pointer">
                             {navLinks}
                         </ul>
                     </div>

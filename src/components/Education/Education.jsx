@@ -6,8 +6,8 @@ import ssc from "../../assets/ssc.png"
 
 const Education = () => {
     return (
-        <div className="max-w-[1468px] mx-auto" id="education">
-            < h1 className="text-5xl font-extrabold text-white text-center" >Education</h1 >
+        <div className="max-w-[1280px] mx-auto" id="education">
+            < h1 className="text-5xl font-extrabold text-white text-center mt-20" >Education</h1 >
             <div className='mt-12 p-5 md:w-[500px] lg:w-[1000px] mx-auto'>
                 <VerticalTimeline>
                     <VerticalTimelineElement

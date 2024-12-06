@@ -12,7 +12,7 @@ import mongo from "../../assets/skills_logo/mongo.png";
 const Skills = () => {
 
     return (
-        <div className="pb-20 max-w-[1468px] mx-auto my-20" id='skills'>
+        <div className="max-w-[1280px] mx-auto my-24" id='skills'>
             <h1 className="text-5xl font-extrabold text-white text-center mb-12">My <span className="text-orange-500">Skills</span></h1>
             <Marquee speed={130}>
                 <div className="flex gap-6">

@@ -1,18 +1,19 @@
 import { FaDownload } from "react-icons/fa6";
-import banner from "../../assets/banner.png"
+import banner from "../../assets/banner.png";
 import resume from "../../assets/Kohinur Akther Resume.pdf";
 import "./home.css"
 
 const Home = () => {
     const bgImg = {
         backgroundImage: `url(${banner})`,
-        backgroundSize: 'cover',
+        backgroundSize: 'auto',
         backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
         // backgroundAttachment: 'fixed',
-        height: '600px'
+        height: '100vh'
     };
     return (
-        <div className="max-w-[1468px] mx-auto relative" style={bgImg} id="home">
+        <div className="relative" style={bgImg} id="home">
             <div className="absolute text-center lg:text-start top-[140px] lg:top-[200px] left-[10px] md:left-[150px]">
                 <h2 className="home2 text-orange-500 font-medium text-xl">Hi, It&apos;s me</h2>
                 <h1 className="home1 text-3xl md:text-5xl font-extrabold text-white">MOST. KOHINUR AKTHER</h1>
