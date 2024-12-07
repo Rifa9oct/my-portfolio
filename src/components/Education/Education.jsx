@@ -1,4 +1,3 @@
-import 'react-vertical-timeline-component/style.min.css';
 import bsc from "../../assets/bsc.png"
 import hsc from "../../assets/hsc.png"
 import ssc from "../../assets/ssc.png"
