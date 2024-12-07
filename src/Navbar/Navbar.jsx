@@ -32,11 +32,9 @@ const Navbar = () => {
                 </div>
 
                 <div>
-                    <div>
-                        <ul className="hidden lg:block text-white cursor-pointer">
-                            {navLinks}
-                        </ul>
-                    </div>
+                    <ul className="hidden lg:block text-white cursor-pointer">
+                        {navLinks}
+                    </ul>
                 </div>
             </div>
         </div>
