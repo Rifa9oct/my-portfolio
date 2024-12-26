@@ -3,16 +3,16 @@ import about from "../../assets/about.png"
 const AboutMe = () => {
     const bgImg = {
         backgroundImage: `url(${about})`,
-        backgroundSize: 'auto',
+        backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
-        height: '500px'
+        height: '600px'
     };
 
     return (
         <div style={bgImg} id="aboutme">
-            <div className="pl-[45%] flex items-center h-[500px] bg-white bg-opacity-20 text-white text-sm" >
+            <div className="pl-[45%] flex items-center h-[600px] bg-white bg-opacity-20 text-white text-sm" >
                 <div className="w-[650px]">
                     < h1 className="text-4xl md:text-5xl font-extrabold text-white pb-5" >ABOUT<span span className="text-orange-500" > ME</span ></h1 >
                     <p className="mb-3">👋 Hello there! I&apos;am a passionate and detail-oriented web developer.</p>
