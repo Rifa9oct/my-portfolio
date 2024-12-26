@@ -12,7 +12,7 @@ const AboutMe = () => {
 
     return (
         <div style={bgImg} id="aboutme">
-            <div className="ml-[45%] pl-12 flex items-center h-[500px] bg-white bg-opacity-25 text-white text-sm" >
+            <div className="pl-[45%] flex items-center h-[500px] bg-white bg-opacity-20 text-white text-sm" >
                 <div className="w-[650px]">
                     < h1 className="text-4xl md:text-5xl font-extrabold text-white pb-5" >ABOUT<span span className="text-orange-500" > ME</span ></h1 >
                     <p className="mb-3">👋 Hello there! I&apos;am a passionate and detail-oriented web developer.</p>
