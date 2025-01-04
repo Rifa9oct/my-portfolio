@@ -1,9 +1,10 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import { MdEmail, MdLocationOn } from "react-icons/md";
+import "./footer.css"
 
 const Footer = () => {
     return (
-        <div className=" text-white p-6 bg-[#162243]">
+        <div className="text-white mt-[120px] border-t border-[#761d8a] pt-10">
             <div className="flex flex-col md:flex-row justify-center md:justify-between lg:mx-32 items-center my-6">
                 <div className='text-white text-lg'>
                     <div className='flex items-center'>
@@ -23,7 +24,14 @@ const Footer = () => {
                     <a><FaWhatsapp /></a>
                 </div>
             </div>
-            <p className="text-sm text-center">Copyright © 2024 - All right reserved by Most. Kohinur Akther</p>
+
+            <div className="wave_style">
+                <p className="text-sm text-center">Copyright © 2025 - All right reserved by Most. Kohinur Akther</p>
+                <div className="wave wave1"></div>
+                <div className="wave wave2"></div>
+                <div className="wave wave3"></div>
+                <div className="wave wave4"></div>
+            </div>
         </div>
     );
 };

@@ -1,0 +1,60 @@
+.wave_style{
+    position: relative;
+    overflow: hidden;
+    height: 170px;
+}
+
+.wave_style .wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: url(../../assets/wave.png);
+    background-size: 1000px 120px;
+}
+
+.wave_style .wave.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+}
+.wave_style .wave.wave2{
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: .5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+.wave_style .wave.wave3{
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: .2;
+    animation-delay: -2s;
+    bottom: 15px;
+}
+.wave_style .wave.wave4{
+    animation: animate2 5s linear infinite;
+    z-index: 997;
+    opacity: .7;
+    animation-delay: -5s;
+    bottom: 20px;
+}
+
+@keyframes animate{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+@keyframes animate2{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: -1000px;
+    }
+}
