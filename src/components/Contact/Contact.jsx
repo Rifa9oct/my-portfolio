@@ -49,7 +49,7 @@ const Contact = () => {
                         <label className='text-white'>Message</label><br />
                         <textarea className='w-[350px] lg:w-[400px] rounded-lg my-2 px-5 pt-2 pb-10' placeholder='message' required name="message" /> <br />
 
-                        <input className="w-[350px] lg:w-[400px] text-white font-bold bg-orange-500 hover:scale-105 transition-all px-8 py-2 mt-5 rounded-full cursor-pointer" type='submit' value="Send" />
+                        <input className="w-[350px] lg:w-[400px] text-white font-bold bg-gradient-to-r from-[#4f32a9] to-[#9020aa] hover:scale-105 transition-all px-8 py-2 mt-5 rounded-full cursor-pointer" type='submit' value="Send" />
                     </form>
                 </div>
             </div>

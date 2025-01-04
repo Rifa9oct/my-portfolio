@@ -21,7 +21,7 @@ const Home = () => {
                 <p className="homeP text-white mx-auto w-[400px]">with a strong foundation in modern technologies. My journey in the world of web development began with a love for creating seamless and interactive user experiences.</p>
 
                 <a href={resume} download={resume}>
-                    <button className="button text-white font-bold bg-orange-500 px-4 py-3 mt-5 rounded-full"><FaDownload className="inline text-xl pb-1 text-center" /> Download Resume</button>
+                    <button className="button text-white font-bold bg-gradient-to-r from-[#4f32a9] to-[#9020aa] px-4 py-3 mt-5 rounded-full"><FaDownload className="inline text-xl pb-1 text-center" /> Download Resume</button>
                 </a>
             </div>
         </div>
