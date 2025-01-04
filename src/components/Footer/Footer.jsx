@@ -3,7 +3,7 @@ import { MdEmail, MdLocationOn } from "react-icons/md";
 
 const Footer = () => {
     return (
-        <div className=" text-white p-6 bg-[#170550]">
+        <div className=" text-white p-6 bg-[#162243]">
             <div className="flex flex-col md:flex-row justify-center md:justify-between lg:mx-32 items-center my-6">
                 <div className='text-white text-lg'>
                     <div className='flex items-center'>
