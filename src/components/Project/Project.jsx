@@ -5,7 +5,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 const Project = () => {
     return (
         <div className="pb-20 max-w-[1468px] mx-auto  mb-20" id='project'>
-            < h1 className="text-5xl font-extrabold text-white text-center">Latest <span span className="text-orange-500" > Projects</span ></h1 >
+            < h1 className="text-5xl font-extrabold text-white text-center font-serif">Latest <span span className="text-orange-500" > Projects</span ></h1 >
 
             <div className="flex flex-col lg:flex-row gap-6 justify-evenly items-center mt-12">
                 <div className="lg:hidden md:block text-white w-[300px] text-center">

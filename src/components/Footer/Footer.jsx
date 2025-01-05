@@ -4,14 +4,14 @@ import "./footer.css"
 
 const Footer = () => {
     return (
-        <div className="text-white mt-[120px] border-t border-[#761d8a] pt-10">
-            <div className="flex flex-col md:flex-row justify-center md:justify-between lg:mx-32 items-center my-6">
+        <div className="text-white mt-10 lg:mt-[100px] border-t border-[#761d8a] pt-10">
+            <div className="max-w-[1280px] mx-auto flex flex-col lg:flex-row gap-8 justify-center md:justify-between items-center my-6">
                 <div className='text-white text-lg'>
-                    <div className='flex items-center'>
+                    <div className='flex items-center justify-center lg:justify-start'>
                         <MdLocationOn className='inline mr-2 text-2xl' />
-                        <p>Dhaka, Bangladesh</p>
+                        <p>Mohammadpur, Dhaka, Bangladesh.</p>
                     </div>
-                    <div className='flex items-center'>
+                    <div className='flex items-center justify-center lg:justify-start'>
                         <MdEmail className='inline mr-2' />
                         <p>kohinuraktherr@gmail.com</p>
                     </div>
