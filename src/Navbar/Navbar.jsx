@@ -1,8 +1,6 @@
 import { Link } from "react-scroll";
 import logo from "../assets/logo.png"
 import "./navbar.css"
-import { IoMenu } from "react-icons/io5";
-
 
 const Navbar = () => {
 
