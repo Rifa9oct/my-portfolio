@@ -14,7 +14,7 @@ const Skills = () => {
     return (
         <div className="max-w-[1280px] mx-auto my-24 px-5 lg:px-0" id='skills'>
             <h1 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-12 font-serif">My <span className="text-orange-500">Skills</span></h1>
-            <Marquee speed={130}>
+            <Marquee speed={130} pauseOnHover={true}>
                 <div className="flex gap-6">
                     <div>
                         <img src={html} alt="html_logo" className="w-[120px]" />

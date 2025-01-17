@@ -1,5 +1,5 @@
 import { FaDownload } from "react-icons/fa6";
-import resume from "../../assets/Kohinur Akther Resume.pdf";
+import resume from "../../assets/kohinur_akther_resume.pdf";
 import "./home.css"
 import banner from "../../assets/banner.png"
 

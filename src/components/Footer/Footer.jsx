@@ -9,19 +9,19 @@ const Footer = () => {
                 <div className='text-white text-lg'>
                     <div className='flex items-center justify-center lg:justify-start'>
                         <MdLocationOn className='inline mr-2 text-2xl' />
-                        <p>Mohammadpur, Dhaka, Bangladesh.</p>
+                        <a target="blank" href="https://www.google.com/maps/" className="hover:text-orange-500">Mohammadpur, Dhaka, Bangladesh.</a>
                     </div>
                     <div className='flex items-center justify-center lg:justify-start'>
                         <MdEmail className='inline mr-2' />
-                        <p>kohinuraktherr@gmail.com</p>
+                        <a target="blank" href="https://gmail.com/" className="hover:text-orange-500">kohinuraktherr@gmail.com</a>
                     </div>
                 </div>
 
                 <div className="text-3xl flex items-center gap-4">
-                    <a target="blank" href="https://github.com/Rifa9oct"><FaGithub /></a>
+                    <a target="blank" href="https://github.com/Rifa9oct/"><FaGithub /></a>
                     <a target="blank" href="https://www.linkedin.com/in/most-kohinur-akther/"><FaLinkedin /></a>
-                    <a target="blank" href="https://www.instagram.com/kohinur_akther.dev"><FaInstagram /></a>
-                    <a><FaWhatsapp /></a>
+                    <a target="blank" href="https://www.instagram.com/kohinur_akther.dev/"><FaInstagram /></a>
+                    <a target="blank" href="https://whatsapp.com/"><FaWhatsapp /></a>
                 </div>
             </div>
 
