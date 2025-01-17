@@ -8,14 +8,20 @@ import react from "../../assets/skills_logo/react.png";
 import next from "../../assets/skills_logo/next.png";
 import node from "../../assets/skills_logo/node.png";
 import mongo from "../../assets/skills_logo/mongo.png";
+import  skills from "../../assets/skills_icon.png";
 
 const Skills = () => {
 
     return (
-        <div className="max-w-[1280px] mx-auto my-24 px-5 lg:px-0" id='skills'>
-            <h1 className="text-4xl md:text-5xl font-extrabold text-white text-center mb-12 font-serif">My <span className="text-orange-500">Skills</span></h1>
+        <div className="max-w-[1280px] mx-auto lg:my-24 px-5 lg:px-0" id='skills'>
+            <div data-aos="fade-up"
+                data-aos-duration="800" className="flex flex-col justify-center items-center">
+                <img src={skills} alt="contact_icon" className='w-24' />
+                <h1 className="text-4xl mt-2 md:text-5xl font-extrabold text-white text-center font-serif">My Skills</h1>
+            </div>
+            
             <Marquee speed={130} pauseOnHover={true}>
-                <div className="flex gap-6">
+                <div className="flex gap-6 mt-[100px]">
                     <div>
                         <img src={html} alt="html_logo" className="w-[120px]" />
                         <p className="text-white text-sm font-bold uppercase text-center">html</p>

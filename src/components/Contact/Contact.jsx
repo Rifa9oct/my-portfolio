@@ -4,6 +4,7 @@ import video from "../../assets/video.mp4"
 import { useForm } from 'react-hook-form';
 import { MdError } from "react-icons/md";
 import { useRef } from 'react';
+import  contat from "../../assets/contact_icon.png";
 
 const Contact = () => {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
@@ -15,7 +16,7 @@ const Contact = () => {
             emailjs.sendForm('service_wxg8lsx', 'template_817cisf', form.current, 'swwPslQjzr44hQZx_')
                 .then(() => {
                     reset();
-                    
+
                     Swal.fire({
                         position: "top-center",
                         icon: "success",
@@ -35,17 +36,25 @@ const Contact = () => {
 
     return (
         <div className='pb-20 max-w-[1468px] mx-auto' id="contact">
-            <h1 className="text-4xl md:text-5xl font-extrabold text-white text-center font-serif">Contact <span className="text-orange-500">ME</span></h1>
+            <div data-aos="fade-up"
+                data-aos-duration="800" className="flex flex-col justify-center items-center">
+                <img src={contat} alt="contact_icon" className='w-24' />
+                <h1 className="text-4xl md:text-5xl font-extrabold text-white text-center font-serif">Contact Me</h1>
+            </div>
 
-            <div className='flex flex-col lg:mx-[200px] lg:flex-row items-center justify-center mt-12'>
-                <div className='w-[350px] mx-auto lg:w-[400px]' >
-                    <video className="rounded-[36px]" autoPlay loop muted>
+            <div className='flex flex-col lg:mx-[200px] lg:flex-row items-center justify-center mt-[90px]'>
+                <div data-aos="fade-right"
+                    data-aos-duration="800"
+                    className='w-[350px] mx-auto lg:w-[450px] '>
+                    <video className="rounded-[16px]" autoPlay loop muted>
                         <source src={video} type="video/mp4" />
                     </video>
                 </div>
 
-                <div className='mx-auto mt-10 lg:mt-0'>
-                    <form ref={form} onSubmit={handleSubmit(sendEmail)}>
+                <div data-aos="fade-left"
+                    data-aos-duration="800"
+                    className='mx-auto mt-10 lg:mt-0'>
+                    <form ref={form} onSubmit={handleSubmit(sendEmail)} className='border border-[#9020aa] p-5 rounded-[16px]'>
                         <div>
                             <label className='text-white'>Name</label><br />
                             <input type="text"
@@ -68,7 +77,7 @@ const Contact = () => {
 
                         <div>
                             <label className='text-white'>Message</label><br />
-                            <textarea name="message" {...register("message", { required: true, maxLength: 150 })} rows="5"
+                            <textarea name="message" {...register("message", { required: true, maxLength: 150 })} rows="4"
                                 className={`w-[350px] lg:w-[400px] rounded-lg mt-2 px-5 pt-2 ${errors.message ? "focus:outline focus:outline-red-500" : "focus:outline focus:outline-[#9020aa]"} `} placeholder='type your message...' /> <br />
                             {errors.message?.type === "required" && <span className="text-sm mt-1 text-red-500"><MdError className="text-lg inline" /> This field is required.</span>}
                             {errors.message?.type === "maxLength" && <p className="text-sm text-red-500"><MdError className="text-lg inline" /> Review message must be less than 150 characters.</p>}

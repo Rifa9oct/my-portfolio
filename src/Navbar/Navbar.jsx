@@ -22,7 +22,7 @@ const Navbar = () => {
                         <Link smooth={true} to="home">
                             <div className="flex gap-3 items-center">
                                 <img className="w-10 h-10 pt-1" src={logo} />
-                                <p className="cursor-pointer text-white font-serif text-xl hover:text-orange-500 ">Kohinur Akther</p>
+                                <p className="cursor-pointer text-white font-serif text-lg md:text-xl hover:text-orange-500 ">Kohinur Akther</p>
                             </div>
                         </Link>
 
